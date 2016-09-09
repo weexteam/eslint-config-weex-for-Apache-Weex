@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-weex",
+  "version": "0.0.4",
+  "author": "Hanks <zhanghan.me@gmail.com>",
+  "description": "Eslint configs for weex bundle file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weexteam/eslint-config-weex"
+  },
+  "homepage": "https://github.com/weexteam/eslint-config-weex",
+  "bugs": "https://github.com/weexteam/eslint-config-weex/issues",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "weex"
+  ],
+  "peerDependencies": {
+    "eslint": "^2.0.0 || ^3.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-weex-bundle": "^0.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0"
+  },
+  "license": "MIT"
+}
