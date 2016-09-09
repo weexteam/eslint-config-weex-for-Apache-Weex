@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-weex",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "author": "Hanks <zhanghan.me@gmail.com>",
   "description": "Eslint configs for weex bundle file.",
   "main": "index.js",
