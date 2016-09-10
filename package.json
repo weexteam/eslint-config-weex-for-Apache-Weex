@@ -20,7 +20,7 @@
     "weex"
   ],
   "peerDependencies": {
-    "eslint": "^2.0.0 || ^3.0.0"
+    "eslint": "^3.4.0"
   },
   "dependencies": {
     "eslint-plugin-weex-bundle": "^0.0.8"
