@@ -1,6 +1,6 @@
 # Weex eslint configs
 
-Eslint configs for weex bundle file.
+Eslint configs for weex file. Both `.we` and `.js` file can be linted.
 
 ## Usage
 
@@ -20,8 +20,8 @@ Then add `extends` property in your `.eslintrc` file.
 
 ## Rules
 
-  + Weex specified
-    + no-timer-module: prevent the usage of `timer` module.
+  + **Weex specified**
+    + **no-timer-module**: prevent the usage of `timer` module.
   + Limits
     + Danger language features
       + no-alert
