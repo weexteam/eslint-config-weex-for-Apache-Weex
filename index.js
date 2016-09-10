@@ -8,11 +8,7 @@ module.exports = {
   globals: {
     document: false,
     navigator: false,
-    window: false,
-    global: false,
     location: false,
-    callNative: false,
-    callJS: false,
   },
 
   extends: [
