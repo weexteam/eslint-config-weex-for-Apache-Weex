@@ -69,14 +69,14 @@ module.exports = {
     // =========================================================
 
     // 不能与父作用域中的变量重名
-    "no-shadow": ["error", {
-      "builtinGlobals": false,
-      "allow": ["module", "exports"]
-    }],
+    // "no-shadow": ["error", {
+    //   "builtinGlobals": false,
+    //   "allow": ["module", "exports"]
+    // }],
 
     // 禁止使用变量提升的特性
-    "no-use-before-define": "error",
-    "block-scoped-var": "error",
+    // "no-use-before-define": "error",
+    // "block-scoped-var": "error",
 
     // 禁止变量重复声明
     "no-redeclare": ["error", { "builtinGlobals": true }],
