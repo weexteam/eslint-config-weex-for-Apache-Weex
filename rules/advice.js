@@ -5,7 +5,7 @@ module.exports = {
     'no-console': ['warn', { allow: ['warn', 'error'] }],
 
     // 不能有空的大括号
-    'no-empty': ['warn', { 'allowEmptyCatch': true }],
+    // 'no-empty': ['warn', { 'allowEmptyCatch': true }],
 
     // 不存在没有用到的变量
     'no-unused-vars': ['warn', {
@@ -40,13 +40,13 @@ module.exports = {
     'no-self-assign': 'warn',
 
     // 不能有额外的 fn.bind
-    'no-extra-bind': 'warn',
+    // 'no-extra-bind': 'warn',
 
     // 不能有无用的 fn.call 和 fn.apply
-    'no-useless-call': 'warn',
+    // 'no-useless-call': 'warn',
 
     // map reduce find every some filter sort 中的回调函数必须有返回值
-    'array-callback-return': 'warn',
+    // 'array-callback-return': 'warn',
 
   }
 }

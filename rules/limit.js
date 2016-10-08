@@ -11,7 +11,7 @@ module.exports = {
     "no-caller": "error",
 
     // 禁用 void / with / label
-    "no-void": "warn",
+    // "no-void": "warn",
     "no-with": "warn",
     "no-labels": "error",
 
@@ -48,7 +48,7 @@ module.exports = {
     "no-extend-native": ["error"],
 
     // 不能通过实例调用 Object.prototype 中的方法
-    "no-prototype-builtins": "error",
+    // "no-prototype-builtins": "error",
 
     // 禁用 __iterator__ 和 __proto__ 属性
     "no-iterator": "error",
@@ -92,7 +92,7 @@ module.exports = {
     "no-unsafe-negation": "error",
 
     // 不能在 return 和 if 的判断语句中赋值
-    "no-return-assign": "error",
+    // "no-return-assign": "error",
     "no-cond-assign": "error",
 
   }
