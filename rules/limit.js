@@ -16,14 +16,14 @@ module.exports = {
     "no-labels": "error",
 
     // 禁止使用 new Function 或者 eval
-    "no-new-func": "warn",
-    "no-implied-eval": "warn",
+    // "no-new-func": "warn",
+    // "no-implied-eval": "warn",
 
     // 禁用多行字符串
-    "no-multi-str": "error",
+    // "no-multi-str": "error",
 
     // 使用严格比较
-    eqeqeq: "warn",
+    // eqeqeq: "warn",
 
 
     // =========================================================
@@ -58,7 +58,7 @@ module.exports = {
     "no-new-wrappers": "warn",
 
     // 不能直接调用 Math() JSON()
-    "no-obj-calls": "error",
+    // "no-obj-calls": "error",
 
     // 必须使用 isNaN 判断 NaN
     "use-isnan": "error",
@@ -89,7 +89,7 @@ module.exports = {
     "no-loop-func": "error",
 
     // 限制不稳定的否定判断，优先级模糊
-    "no-unsafe-negation": "error",
+    // "no-unsafe-negation": "error",
 
     // 不能在 return 和 if 的判断语句中赋值
     // "no-return-assign": "error",
