@@ -7,7 +7,7 @@ Eslint configs for weex file. Both `.we` and `.js` file can be linted.
 First, setup [ESLint](http://eslint.org/) in your project, and install weex specified configs.
 
 ```
-npm install eslist-config-weex --save-dev
+npm install eslint-config-weex --save-dev
 ```
 
 Then add `extends` property in your `.eslintrc` file.
