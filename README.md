@@ -7,13 +7,14 @@
 
 名称 | 包含规则 | 解析器
 --- | --- | ---
-[标准规则](#标准规则) | [ESLint 规则][] | [babel-eslint][]
-[Vue](#vue) | ESLint 规则、[eslint-plugin-weex][] | [vue-eslint-parser][] [babel-eslint][]
+[标准规则](#标准规则) | [JS 规则][] | [babel-eslint][]
+[Vue](#vue) | [JS 规则][]、[Weex/vue 规则][] | [vue-eslint-parser][] [babel-eslint][]
 
 
 [babel-eslint]: https://github.com/babel/babel-eslint
 [vue-eslint-parser]: https://github.com/mysticatea/vue-eslint-parser
-[ESLint 规则]: https://eslint.org/docs/rules/
+[JS 规则]: https://eslint.org/docs/rules/
+[weex/vue 规则]: https://www.npmjs.com/package/eslint-plugin-weex#bulb-rules
 [eslint-plugin-weex]: https://www.npmjs.com/package/eslint-plugin-weex
 
 ## 配置原则
