@@ -77,6 +77,8 @@ module.exports = {
         'weex/vue/valid-style-selector': 'error',
         // 校验 font-family 样式
         'weex/vue/valid-style-font-family': 'error',
+        // 校验 style 格式
+        'weex/vue/valid-style-root': 'error',
         //
         // vue 相关
         //
