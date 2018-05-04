@@ -1,20 +1,19 @@
 # Weex ESLint 规则
 
-<!-- [![Build Status](https://img.shields.io/travis/weexteam/eslint-config-weex.svg)](https://travis-ci.org/weexteam/eslint-config-weex) [![npm package](https://img.shields.io/npm/v/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex) [![npm downloads](http://img.shields.io/npm/dm/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex) -->
+[![Build Status](https://img.shields.io/travis/weexteam/eslint-config-weex.svg)](https://travis-ci.org/weexteam/eslint-config-weex) [![npm package](https://img.shields.io/npm/v/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex) [![npm downloads](http://img.shields.io/npm/dm/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex)
 
-<!-- 在线浏览规则描述及示例：https://weexteam.github.io/eslint-config-weex/ -->
+在线浏览规则描述及示例：https://weexteam.github.io/eslint-config-weex/
 
 名称 | 包含规则 | 解析器
 --- | --- | ---
-[标准规则](#标准规则) | [ESLint 规则][] | [babel-eslint][https://www.npmjs.com/package/babel-eslint]
-[Vue](#vue) | ESLint 规则、[eslint-plugin-weex][https://www.npmjs.com/package/eslint-plugin-weex] | [vue-eslint-parser][https://www.npmjs.com/package/vue-eslint-parser] babel-eslint
+[标准规则](#标准规则) | [ESLint 规则][] | [babel-eslint][]
+[Vue](#vue) | ESLint 规则、[eslint-plugin-weex][] | [vue-eslint-parser][] [babel-eslint][]
 
 
 [babel-eslint]: https://github.com/babel/babel-eslint
-[vue-eslint-parser@2.0.1-beta.2]: https://github.com/mysticatea/vue-eslint-parser/tree/v2.0.1-beta.2
-[typescript-eslint-parser]: https://github.com/eslint/typescript-eslint-parser
+[vue-eslint-parser]: https://github.com/mysticatea/vue-eslint-parser
 [ESLint 规则]: https://eslint.org/docs/rules/
-[eslint-plugin-weex]: https://github.com/vuejs/eslint-plugin-vue
+[eslint-plugin-weex]: https://www.npmjs.com/package/eslint-plugin-weex
 
 ## 配置原则
 
