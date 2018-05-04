@@ -7,12 +7,15 @@
  * @fixable 表示此配置支持 --fix
  * @off 表示此配置被关闭了，并且后面说明了关闭的原因
  */
+
 module.exports = {
-    extends: ['./index.js'],
+    extends: [
+        './index.js'
+    ],
     parser: 'vue-eslint-parser',
     parserOptions: {
-    // 设置 js 的解析器为 babel-eslint
-    // https://github.com/mysticatea/vue-eslint-parser#-options
+        // 设置 js 的解析器为 babel-eslint
+        // https://github.com/mysticatea/vue-eslint-parser#-options
         parser: 'babel-eslint',
         ecmaVersion: 2017,
         sourceType: 'module',
@@ -23,10 +26,14 @@ module.exports = {
             modules: true
         }
     },
-    plugins: ['weex'],
+    plugins: [
+        'weex'
+    ],
     rules: {
-    // weex 相关
-    // 不支持 v-cloak 指令
+        //
+        // weex 相关
+        //
+        // 不支持 v-cloak 指令
         'weex/vue/no-v-cloak': 'error',
         // 不支持 v-html 指令
         'weex/vue/no-v-html': 'error',
@@ -70,7 +77,9 @@ module.exports = {
         'weex/vue/valid-style-selector': 'error',
         // 校验 font-family 样式
         'weex/vue/valid-style-font-family': 'error',
+        //
         // vue 相关
+        //
         // 禁止重复的二级键名
         // @off 没必要限制
         'weex/vue/no-dupe-keys': 'off',
@@ -82,12 +91,12 @@ module.exports = {
         // @off 没必要限制
         'weex/vue/no-shared-component-data': 'off',
         // 禁止 <template> 使用 key 属性
-        // @off 太严格了
+        // @off 过于严格
         'weex/vue/no-template-key': 'off',
         // render 函数必须有返回值
         'weex/vue/require-render-return': 'error',
         // prop 的默认值必须匹配它的类型
-        // @off 太严格了
+        // @off 过于严格
         'weex/vue/require-valid-default-prop': 'off',
         // 计算属性必须有返回值
         'weex/vue/return-in-computed-property': 'error',
@@ -115,7 +124,9 @@ module.exports = {
         'weex/vue/valid-v-pre': 'error',
         // v-text 指令必须合法
         'weex/vue/valid-v-text': 'error',
+        //
         // 最佳实践
+        //
         // @fixable html 的结束标签必须符合规定
         // @off 有的标签不必严格符合规定，如 <br> 或 <br/> 都应该是合法的
         'weex/vue/html-end-tags': 'off',
@@ -126,7 +137,7 @@ module.exports = {
         // 禁止出现重复的属性
         'weex/vue/no-duplicate-attributes': 'error',
         // 禁止在计算属性中对属性修改
-        // @off 太严格了
+        // @off 过于严格
         'weex/vue/no-side-effects-in-computed-properties': 'off',
         // 禁止在 textarea 中出现 {{message}}
         'weex/vue/no-textarea-mustache': 'error',
@@ -139,7 +150,9 @@ module.exports = {
         'weex/vue/require-prop-types': 'off',
         // v-for 指令的元素必须有 v-bind:key
         'weex/vue/require-v-for-key': 'error',
+        //        
         // 风格问题
+        //
         // @fixable 限制自定义组件的属性风格
         // @off 没必要限制
         'weex/vue/attribute-hyphenation': 'off',
@@ -162,8 +175,10 @@ module.exports = {
         // @fixable 限制 v-on 的风格
         // @off 没必要限制
         'weex/vue/v-on-style': 'off',
+        //        
         // 变量
+        //
         // 定义了的 jsx element 必须使用
-        'weex/vue/jsx-uses-vars': 'error',
+        'weex/vue/jsx-uses-vars': 'error'
     }
 };
