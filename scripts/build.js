@@ -23,7 +23,7 @@ function buildRuleComments(filename) {
     let commentLines = [];
 
     fileAST.tokens.forEach((token) => {
-        // 从 rules 开始遍历
+    // 从 rules 开始遍历
         if (token.value === 'rules') {
             rulesStart = true;
         }
@@ -35,7 +35,7 @@ function buildRuleComments(filename) {
                 if (token.value === '') {
                     commentLines = [];
                 }
-            // 如果某一行不是注释，并且之前存储过了注释，则说明该行是一条规则
+                // 如果某一行不是注释，并且之前存储过了注释，则说明该行是一条规则
             } else if (commentLines.length > 0) {
                 ruleComments[token.value] = commentLines.join('\n');
                 commentLines = [];

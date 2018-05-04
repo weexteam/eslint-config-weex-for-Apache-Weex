@@ -1,5 +1,5 @@
 /**
- * AlloyTeam ESLint 规则
+ * Weex ESLint 规则
  *
  * 包含所有 ESLint 规则
  * 使用 babel-eslint 作为解析器
@@ -14,7 +14,6 @@ module.exports = {
         ecmaVersion: 2017,
         sourceType: 'module',
         ecmaFeatures: {
-            // @TODO Deprecated https://eslint.org/docs/user-guide/configuring#deprecated
             experimentalObjectRestSpread: true,
             jsx: true,
             modules: true
@@ -143,9 +142,6 @@ module.exports = {
         'valid-jsdoc': 'off',
         // typeof 表达式比较的对象必须是 'undefined', 'object', 'boolean', 'number', 'string', 'function' 或 'symbol'
         'valid-typeof': 'error',
-
-
-
         //
         //
         // 最佳实践

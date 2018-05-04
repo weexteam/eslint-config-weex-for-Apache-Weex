@@ -7,15 +7,12 @@
  * @fixable 表示此配置支持 --fix
  * @off 表示此配置被关闭了，并且后面说明了关闭的原因
  */
-
 module.exports = {
-    extends: [
-        './index.js'
-    ],
+    extends: ['./index.js'],
     parser: 'vue-eslint-parser',
     parserOptions: {
-        // 设置 js 的解析器为 babel-eslint
-        // https://github.com/mysticatea/vue-eslint-parser#-options
+    // 设置 js 的解析器为 babel-eslint
+    // https://github.com/mysticatea/vue-eslint-parser#-options
         parser: 'babel-eslint',
         ecmaVersion: 2017,
         sourceType: 'module',
@@ -26,14 +23,54 @@ module.exports = {
             modules: true
         }
     },
-    plugins: [
-        'weex'
-    ],
+    plugins: ['weex'],
     rules: {
-        //
-        //
-        // 可能的错误
-        //
+    // weex 相关
+    // 不支持 v-cloak 指令
+        'weex/vue/no-v-cloak': 'error',
+        // 不支持 v-html 指令
+        'weex/vue/no-v-html': 'error',
+        // 不支持 document API
+        'weex/vue/no-document': 'error',
+        // 不支持 global API
+        'weex/vue/no-global': 'error',
+        // 不支持 window API
+        'weex/vue/no-window': 'error',
+        // 不支持 display 样式
+        'weex/vue/no-style-display': 'error',
+        // 不支持 float 样式
+        'weex/vue/no-style-float': 'error',
+        // 不支持 z-index 样式
+        'weex/vue/no-style-z-index': 'error',
+        // 不支持 v-show 指令
+        'weex/vue/no-v-show': 'error',
+        // 校验 cell 组件
+        'weex/vue/valid-cell-component': 'error',
+        // 校验 image 组件
+        'weex/vue/valid-image-component': 'error',
+        // 校验 indicator 组件
+        'weex/vue/valid-indicator-component': 'error',
+        // 校验 input 组件
+        'weex/vue/valid-input-component': 'error',
+        // 校验 list 组件
+        'weex/vue/valid-list-component': 'error',
+        // 校验 scroller 组件
+        'weex/vue/valid-scroller-component': 'error',
+        // 校验 web 组件
+        'weex/vue/valid-web-component': 'error',
+        // 校验 video 组件
+        'weex/vue/valid-video-component': 'error',
+        // 校验 switch 组件
+        'weex/vue/valid-switch-component': 'error',
+        // 校验 picker 模块
+        'weex/vue/valid-picker-module': 'error',
+        // 校验 flex 样式
+        'weex/vue/valid-style-flex': 'error',
+        // 校验 选择器 格式
+        'weex/vue/valid-style-selector': 'error',
+        // 校验 font-family 样式
+        'weex/vue/valid-style-font-family': 'error',
+        // vue 相关
         // 禁止重复的二级键名
         // @off 没必要限制
         'weex/vue/no-dupe-keys': 'off',
@@ -58,8 +95,6 @@ module.exports = {
         'weex/vue/valid-template-root': 'error',
         // v-bind 指令必须合法
         'weex/vue/valid-v-bind': 'error',
-        // 不支持 v-cloak 指令
-        'weex/vue/no-v-cloak': 'error',
         // v-else-if 指令必须合法
         'weex/vue/valid-v-else-if': 'error',
         // v-else 指令必须合法
@@ -78,15 +113,9 @@ module.exports = {
         'weex/vue/valid-v-once': 'error',
         // v-pre 指令必须合法
         'weex/vue/valid-v-pre': 'error',
-        // v-show 指令必须合法
-        'weex/vue/valid-v-show': 'error',
         // v-text 指令必须合法
         'weex/vue/valid-v-text': 'error',
-
-        //
-        //
         // 最佳实践
-        //
         // @fixable html 的结束标签必须符合规定
         // @off 有的标签不必严格符合规定，如 <br> 或 <br/> 都应该是合法的
         'weex/vue/html-end-tags': 'off',
@@ -99,7 +128,7 @@ module.exports = {
         // 禁止在计算属性中对属性修改
         // @off 太严格了
         'weex/vue/no-side-effects-in-computed-properties': 'off',
-        // 禁止在 <textarea> 中出现 {{message}}
+        // 禁止在 textarea 中出现 {{message}}
         'weex/vue/no-textarea-mustache': 'error',
         // 组件的属性必须为一定的顺序
         'weex/vue/order-in-components': 'error',
@@ -110,13 +139,7 @@ module.exports = {
         'weex/vue/require-prop-types': 'off',
         // v-for 指令的元素必须有 v-bind:key
         'weex/vue/require-v-for-key': 'error',
-
-
-
-        //
-        //
         // 风格问题
-        //
         // @fixable 限制自定义组件的属性风格
         // @off 没必要限制
         'weex/vue/attribute-hyphenation': 'off',
@@ -139,14 +162,8 @@ module.exports = {
         // @fixable 限制 v-on 的风格
         // @off 没必要限制
         'weex/vue/v-on-style': 'off',
-
-
-
-        //
-        //
         // 变量
-        //
         // 定义了的 jsx element 必须使用
-        'weex/vue/jsx-uses-vars': 'error'
+        'weex/vue/jsx-uses-vars': 'error',
     }
 };

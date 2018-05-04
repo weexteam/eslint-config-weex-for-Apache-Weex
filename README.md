@@ -1,20 +1,20 @@
-# Weex ESLint 规则
+# Weex ESLint Rules
 
  [![npm package](https://img.shields.io/npm/v/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex) [![npm downloads](http://img.shields.io/npm/dm/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex)
  [![CircleCI](https://circleci.com/gh/weexteam/eslint-plugin-weex.svg?style=svg)](https://circleci.com/gh/weexteam/eslint-plugin-weex)
 
-在线浏览规则描述及示例：https://weexteam.github.io/eslint-config-weex/
+Rules Detail：https://weexteam.github.io/eslint-config-weex/
 
-名称 | 包含规则 | 解析器
+Name | Rules | Parser
 --- | --- | ---
-[标准规则](#标准规则) | [JS 规则][] | [babel-eslint][]
-[Vue](#vue) | [JS 规则][]、[Weex/vue 规则][] | [vue-eslint-parser][] [babel-eslint][]
+[JS](#Standard Rules) | [JS Rules][] | [babel-eslint][]
+[Vue](#vue) | [JS Rules][]、[Weex/vue Rules][] | [eslint-plugin-weex][] [babel-eslint][]
 
 
 [babel-eslint]: https://github.com/babel/babel-eslint
 [vue-eslint-parser]: https://github.com/mysticatea/vue-eslint-parser
-[JS 规则]: https://eslint.org/docs/rules/
-[weex/vue 规则]: https://www.npmjs.com/package/eslint-plugin-weex#bulb-rules
+[JS Rules]: https://eslint.org/docs/rules/
+[weex/vue Rules]: https://www.npmjs.com/package/eslint-plugin-weex#bulb-rules
 [eslint-plugin-weex]: https://www.npmjs.com/package/eslint-plugin-weex
 
 ## 配置原则
@@ -35,14 +35,14 @@
 - 对于关闭掉的配置，都在注释中有对应的原因说明，以及 `@off` 的标识
 - 对于能够 autofix 的配置，都在注释中有标注 `@autofix`
 
-## 使用方法
+## Usage
 
-### 标准规则
+### Standard Rules
 
 安装：
 
 ```bash
-npm install --save-dev eslint babel-eslint eslint-config-alloy
+npm install --save-dev eslint babel-eslint eslint-config-weex
 ```
 
 在你的项目根目录下创建 `.eslintrc.js`，并将以下内容复制到文件中：
