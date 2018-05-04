@@ -1,6 +1,7 @@
 # Weex ESLint 规则
 
-[![Build Status](https://img.shields.io/travis/weexteam/eslint-config-weex.svg)](https://travis-ci.org/weexteam/eslint-config-weex) [![npm package](https://img.shields.io/npm/v/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex) [![npm downloads](http://img.shields.io/npm/dm/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex)
+ [![npm package](https://img.shields.io/npm/v/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex) [![npm downloads](http://img.shields.io/npm/dm/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex)
+ [![CircleCI](https://circleci.com/gh/weexteam/eslint-plugin-weex.svg?style=svg)](https://circleci.com/gh/weexteam/eslint-plugin-weex)
 
 在线浏览规则描述及示例：https://weexteam.github.io/eslint-config-weex/
 
