@@ -150,7 +150,7 @@ module.exports = {
         'weex/vue/require-prop-types': 'off',
         // v-for 指令的元素必须有 v-bind:key
         'weex/vue/require-v-for-key': 'error',
-        //        
+        //
         // 风格问题
         //
         // @fixable 限制自定义组件的属性风格
@@ -175,7 +175,7 @@ module.exports = {
         // @fixable 限制 v-on 的风格
         // @off 没必要限制
         'weex/vue/v-on-style': 'off',
-        //        
+        //
         // 变量
         //
         // 定义了的 jsx element 必须使用
