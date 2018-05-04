@@ -1,7 +1,7 @@
 # Weex ESLint Rules
 
  [![npm package](https://img.shields.io/npm/v/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex) [![npm downloads](http://img.shields.io/npm/dm/eslint-config-weex.svg)](https://www.npmjs.org/package/eslint-config-weex)
- [![CircleCI](https://circleci.com/gh/weexteam/eslint-plugin-weex.svg?style=svg)](https://circleci.com/gh/weexteam/eslint-plugin-weex)
+ [![CircleCI](https://circleci.com/gh/weexteam/eslint-config-weex.svg?style=svg)](https://circleci.com/gh/weexteam/eslint-config-weex)
 
 Rules Detail：https://weexteam.github.io/eslint-config-weex/
 
