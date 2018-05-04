@@ -110,8 +110,6 @@ module.exports = {
         'weex/vue/valid-v-else': 'error',
         // v-for 指令必须合法
         'weex/vue/valid-v-for': 'error',
-        // 不支持 v-html 指令
-        'weex/vue/valid-v-html': 'error',
         // v-if 指令必须合法
         'weex/vue/valid-v-if': 'error',
         // v-model 指令必须合法
