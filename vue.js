@@ -33,51 +33,51 @@ module.exports = {
         //
         // weex 相关
         //
-        // 不支持 v-cloak 指令
+        // 禁止使用 v-cloak 指令
         'weex/vue/no-v-cloak': 'error',
-        // 不支持 v-html 指令
+        // 禁止使用 v-html 指令
         'weex/vue/no-v-html': 'error',
-        // 不支持 document API
+        // 禁止使用 document API
         'weex/vue/no-document': 'error',
-        // 不支持 global API
+        // 禁止使用 global API
         'weex/vue/no-global': 'error',
-        // 不支持 window API
+        // 禁止使用 window API
         'weex/vue/no-window': 'error',
-        // 不支持 display 样式
+        // 禁止使用 display 样式
         'weex/vue/no-style-display': 'error',
-        // 不支持 float 样式
+        // 禁止使用 float 样式
         'weex/vue/no-style-float': 'error',
-        // 不支持 z-index 样式
+        // 禁止使用 z-index 样式
         'weex/vue/no-style-z-index': 'error',
-        // 不支持 v-show 指令
+        // 禁止使用 v-show 指令
         'weex/vue/no-v-show': 'error',
-        // 校验 cell 组件
+        // cell 组件必须合法
         'weex/vue/valid-cell-component': 'error',
-        // 校验 image 组件
+        // image 组件必须合法
         'weex/vue/valid-image-component': 'error',
-        // 校验 indicator 组件
+        // indicator 组件必须合法
         'weex/vue/valid-indicator-component': 'error',
-        // 校验 input 组件
+        // input 组件必须合法
         'weex/vue/valid-input-component': 'error',
-        // 校验 list 组件
+        // list 组件必须合法
         'weex/vue/valid-list-component': 'error',
-        // 校验 scroller 组件
+        // scroller 组件必须合法
         'weex/vue/valid-scroller-component': 'error',
-        // 校验 web 组件
+        // web 组件必须合法
         'weex/vue/valid-web-component': 'error',
-        // 校验 video 组件
+        // video 组件必须合法
         'weex/vue/valid-video-component': 'error',
-        // 校验 switch 组件
+        // switch 组件必须合法
         'weex/vue/valid-switch-component': 'error',
-        // 校验 picker 模块
+        // picker 模块必须合法
         'weex/vue/valid-picker-module': 'error',
-        // 校验 flex 样式
+        // flex 样式必须合法
         'weex/vue/valid-style-flex': 'error',
-        // 校验 选择器 格式
+        // 选择器 格式必须合法
         'weex/vue/valid-style-selector': 'error',
-        // 校验 font-family 样式
+        // font-family 样式必须合法
         'weex/vue/valid-style-font-family': 'error',
-        // 校验 style 格式
+        // style 格式必须合法
         'weex/vue/valid-style-root': 'error',
         //
         // vue 相关

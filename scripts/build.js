@@ -52,8 +52,8 @@ function copyRuleConfigs(filename) {
 
 function buildRuleTests(dirname) {
     let prefix = '';
-    if (dirname === 'react' || dirname === 'vue' || dirname === 'typescript') {
-        prefix = `${dirname}/`;
+    if (dirname === 'rax' || dirname === 'vue') {
+        prefix = `weex/${dirname}/`;
     }
     const ruleTests = {};
     const dirnameList = fse.readdirSync(path.resolve(__dirname, `../test/${dirname}`));
