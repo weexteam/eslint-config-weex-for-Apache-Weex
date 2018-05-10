@@ -4,6 +4,6 @@
     <textarea @click="click" />
 </template>
 <!-- 仅支持 text|date|datetime|email|password|tel|time|url|number 的type类型 -->
-<template>
+<!-- <template>
     <textarea type="address" />
-</template>
+</template> -->
