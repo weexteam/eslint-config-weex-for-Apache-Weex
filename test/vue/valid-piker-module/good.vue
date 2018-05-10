@@ -4,8 +4,8 @@ const picker = weex.requireModule('picker');
 export default {
     methods: {
         open: function() {
-            picker.pick({index: this.index, items}, () => {})
+            picker.pick({ index: 0, items: [0, 1] }, function() {});
         }
     }
-}
+};
 </script>

@@ -2,20 +2,20 @@
 <template>
     <div></div>
 </template>
-<style>
+<style scoped>
 .child {
-  	color: #fff;
+  color: #fff;
 }
 .child: active {
-  	color: #fff;
+  color: #fff;
 }
 .child: focus {
-  	color: #fff;
+  color: #fff;
 }
 .child: disabled {
-  	color: #fff;
+  color: #fff;
 }
 .child: enabled {
-  	color: #fff;
+  color: #fff;
 }
 </style>

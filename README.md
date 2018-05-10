@@ -7,7 +7,7 @@ Rules Detail：https://weexteam.github.io/eslint-config-weex/
 
 Name | Rules | Parser
 --- | --- | ---
-[JS](#Standard Rules) | [JS Rules][] | [babel-eslint][]
+[JS](#Standard) | [JS Rules][] | [babel-eslint][]
 [Vue](#vue) | [JS Rules][]、[Weex/vue Rules][] | [eslint-plugin-weex][] [babel-eslint][]
 
 
@@ -37,7 +37,7 @@ Name | Rules | Parser
 
 ## Usage
 
-### Standard Rules
+### Standard
 
 安装：
 

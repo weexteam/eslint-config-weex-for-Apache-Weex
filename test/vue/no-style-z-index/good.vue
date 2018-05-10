@@ -4,7 +4,7 @@
         <text class="zIndex"></text>
     </div>
 </template>
-<style>
+<style scoped>
     .zIndex {
         color: red;
     }

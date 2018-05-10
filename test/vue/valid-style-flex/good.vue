@@ -2,7 +2,7 @@
 <template>
     <div class="wrapper"></div>
 </template>
-<style>
+<style scoped>
 .wrapper {
   flex-direction: row;
   justify-content: center;

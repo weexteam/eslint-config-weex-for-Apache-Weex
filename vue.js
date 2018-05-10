@@ -29,6 +29,9 @@ module.exports = {
     plugins: [
         'weex'
     ],
+    globals: {
+        weex: false
+    },
     rules: {
         //
         // weex 相关
@@ -86,7 +89,9 @@ module.exports = {
         // @off 没必要限制
         'weex/vue/no-dupe-keys': 'off',
         // 禁止出现语法错误
-        'weex/vue/no-parsing-error': 'error',
+        'weex/vue/no-parsing-error': [2, {
+            'x-invalid-end-tag': false
+        }],
         // 禁止覆盖保留字
         'weex/vue/no-reserved-keys': 'error',
         // 组件的 data 属性的值必须是一个函数
@@ -111,7 +116,7 @@ module.exports = {
         // v-else 指令必须合法
         'weex/vue/valid-v-else': 'error',
         // v-for 指令必须合法
-        'weex/vue/valid-v-for': 'error',
+        'weex/vue/valid-v-for': 'warn',
         // v-if 指令必须合法
         'weex/vue/valid-v-if': 'error',
         // v-model 指令必须合法
@@ -149,7 +154,7 @@ module.exports = {
         // @off 没必要限制
         'weex/vue/require-prop-types': 'off',
         // v-for 指令的元素必须有 v-bind:key
-        'weex/vue/require-v-for-key': 'error',
+        'weex/vue/require-v-for-key': 'warn',
         //
         // 风格问题
         //

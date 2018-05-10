@@ -4,7 +4,7 @@
         <text class="float"></text>
     </div>
 </template>
-<style>
+<style scoped>
     .float {
         color: red;
     }

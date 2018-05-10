@@ -4,7 +4,7 @@
         <text class="display"></text>
     </div>
 </template>
-<style>
+<style scoped>
     .display {
         color: red;
     }
