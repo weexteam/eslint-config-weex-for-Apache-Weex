@@ -27,7 +27,7 @@ const RULE_DATA_MAP = {
         comment: ruleCommentVue,
         test: ruleTestVue,
         getDetailLink: (key) => {
-            return `https://github.com/erha19/eslint-plugin-weex/blob/master/docs/rules/vue/${key.replace('weex/', '')}.md`;
+            return `https://github.com/erha19/eslint-plugin-weex/blob/master/docs/rules/${key.replace('weex/', '')}.md`;
         }
     }
 };

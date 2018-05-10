@@ -5,5 +5,5 @@
 </template>
 <!-- 仅支持 text|date|datetime|email|password|tel|time|url|number 的type类型 -->
 <template>
-    <input type="text" />
+  <input type="text" />
 </template>
