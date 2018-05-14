@@ -18,6 +18,7 @@
     "weex/vue/valid-video-component": "video 组件必须合法",
     "weex/vue/valid-switch-component": "switch 组件必须合法",
     "weex/vue/valid-picker-module": "picker 模块必须合法",
+    "weex/vue/valid-animation-module": "animation 模块必须合法",
     "weex/vue/valid-style-flex": "flex 样式必须合法",
     "weex/vue/valid-style-selector": "选择器 格式必须合法",
     "weex/vue/valid-style-font-family": "font-family 样式必须合法",

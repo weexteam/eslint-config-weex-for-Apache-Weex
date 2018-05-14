@@ -45,7 +45,7 @@
     "babylon": "^6.18.0",
     "eslint": "^4.11.0",
     "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-weex": "^1.0.3",
+    "eslint-plugin-weex": "^1.0.4",
     "fs-extra": "^5.0.0",
     "mobi-plugin-color": "^1.0.0",
     "mobi.css": "^3.1.1",

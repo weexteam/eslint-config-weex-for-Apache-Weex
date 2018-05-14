@@ -74,6 +74,8 @@ module.exports = {
         'weex/vue/valid-switch-component': 'error',
         // picker 模块必须合法
         'weex/vue/valid-picker-module': 'error',
+        // animation 模块必须合法
+        'weex/vue/valid-animation-module': 'error',
         // flex 样式必须合法
         'weex/vue/valid-style-flex': 'error',
         // 选择器 格式必须合法

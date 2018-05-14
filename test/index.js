@@ -19,7 +19,6 @@ const badReport = cli.executeOnFiles([
 ]);
 
 badReport.results.forEach((badReportForOneFile) => {
-    console.log(badReportForOneFile);
     assert(badReportForOneFile.errorCount > 0, `${badReportForOneFile.filePath} should have at least one error`);
 });
 
