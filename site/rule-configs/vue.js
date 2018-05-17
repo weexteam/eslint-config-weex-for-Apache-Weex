@@ -1,5 +1,5 @@
 /**
- * AlloyTeam ESLint 规则 - Vue
+ * WeexTeam ESLint 规则 - Vue
  *
  * 包含所有 ESLint 规则，以及所有 eslint-plugin-vue 规则
  * 使用 vue-eslint-parser 作为解析器
@@ -10,7 +10,7 @@
 
 module.exports = {
     extends: [
-        './index.js'
+        './base.js'
     ],
     parser: 'vue-eslint-parser',
     parserOptions: {

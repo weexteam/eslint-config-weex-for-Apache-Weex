@@ -10,7 +10,7 @@
 
 module.exports = {
     extends: [
-        './index.js'
+        './base.js'
     ],
     parser: 'vue-eslint-parser',
     parserOptions: {
