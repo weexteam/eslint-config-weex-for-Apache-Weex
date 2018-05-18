@@ -46,12 +46,12 @@ module.exports = {
         'weex/vue/no-global': 'error',
         // 禁止使用 window API
         'weex/vue/no-window': 'error',
-        // 禁止使用 display 样式
-        'weex/vue/no-style-display': 'error',
-        // 禁止使用 float 样式
-        'weex/vue/no-style-float': 'error',
-        // 禁止使用 z-index 样式
-        'weex/vue/no-style-z-index': 'error',
+        // 禁止使用 display 样式, Native 端存在兼容问题
+        'weex/vue/no-style-display': 'warn',
+        // 禁止使用 float 样式, Native 端存在兼容问题
+        'weex/vue/no-style-float': 'warn',
+        // 禁止使用 z-index 样式, Native 端存在兼容问题
+        'weex/vue/no-style-z-index': 'warn',
         // 禁止使用 v-show 指令
         'weex/vue/no-v-show': 'error',
         // cell 组件必须合法
@@ -76,14 +76,14 @@ module.exports = {
         'weex/vue/valid-picker-module': 'error',
         // animation 模块必须合法
         'weex/vue/valid-animation-module': 'error',
-        // flex 样式必须合法
-        'weex/vue/valid-style-flex': 'error',
+        // flex 样式必须合法, Native 端存在兼容问题
+        'weex/vue/valid-style-flex': 'warn',
         // 选择器 格式必须合法
         'weex/vue/valid-style-selector': 'error',
-        // font-family 样式必须合法
-        'weex/vue/valid-style-font-family': 'error',
-        // style 格式必须合法
-        'weex/vue/valid-style-root': 'error',
+        // font-family 样式必须合法, Native 端存在兼容问题
+        'weex/vue/valid-style-font-family': 'warn',
+        // style 格式必须合法, 前端存在表现不一致问题
+        'weex/vue/valid-style-root': 'warn',
         //
         // vue 相关
         //
