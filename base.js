@@ -271,18 +271,7 @@ module.exports = {
         // @off 太严格了
         'no-magic-numbers': 'off',
         // @fixable 禁止出现连续的多个空格，除非是注释前，或对齐对象的属性、变量定义、import 等
-        'no-multi-spaces': [
-            'error',
-            {
-                ignoreEOLComments: true,
-                exceptions: {
-                    Property: true,
-                    BinaryExpression: false,
-                    VariableDeclarator: true,
-                    ImportDeclaration: true
-                }
-            }
-        ],
+        'no-multi-spaces': 'off',
         // 禁止使用 \ 来换行字符串
         // @off 风格相关代码关闭
         'no-multi-str': 'off',
