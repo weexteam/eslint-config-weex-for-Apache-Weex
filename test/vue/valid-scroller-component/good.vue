@@ -3,7 +3,7 @@
 <template>
   <div>
     <scroller class="scroller">
-      <div class="row" v-for="(name, index) in rows" :ref="'item'+index">
+      <div class="row" v-for="(name, index) in rows" :key="index" :ref="'item'+index">
         <text class="text" :ref="'text'+index">{{name}}</text>
       </div>
     </scroller>
