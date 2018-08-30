@@ -92,7 +92,8 @@ module.exports = {
         'weex/vue/no-dupe-keys': 'off',
         // 禁止出现语法错误
         'weex/vue/no-parsing-error': [2, {
-            'x-invalid-end-tag': false
+            'x-invalid-end-tag': false,
+            'missing-whitespace-between-attributes': false
         }],
         // 禁止覆盖保留字
         'weex/vue/no-reserved-keys': 'error',
@@ -140,7 +141,7 @@ module.exports = {
         // 计算属性禁止包含异步方法
         'weex/vue/no-async-in-computed-properties': 'error',
         // 禁止出现难以理解的 v-if 和 v-for
-        'weex/vue/no-confusing-v-for-v-if': 'error',
+        'weex/vue/no-confusing-v-for-v-if': 'warn',
         // 禁止出现重复的属性
         'weex/vue/no-duplicate-attributes': 'error',
         // 禁止在计算属性中对属性修改
@@ -163,8 +164,8 @@ module.exports = {
         // @fixable 限制自定义组件的属性风格
         // @off 没必要限制
         'weex/vue/attribute-hyphenation': 'off',
-        // html 属性值必须用双引号括起来
-        'weex/vue/html-quotes': 'error',
+        // html 属性值用双引号括起来, 关闭
+        'weex/vue/html-quotes': 'off',
         // @fixable 没有内容时，组件必须自闭和
         // @off 没必要限制
         'weex/vue/html-self-closing': 'off',
